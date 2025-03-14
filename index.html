@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Script -->
+    <script src="src/js/rainbowSix.js" defer></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="src/img/game-boy-advance.png" type="image/x-icon">
+    <!-- Css -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Sorteador de Personagens</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sorteador de Personagens</h1>
+        <div class="jogos">
+            <div class="game-card" id="rainbow-six">
+                <a href="#">
+                    <img src="src/img/rainbowsix/capaDoJogo.png" alt="Rainbow Six">
+                </a>
+                <h2>Rainbow Six Siege</h2>
+            </div>
+            <div class="game-card">
+                <a href="">
+                    <img src="src/img/lol/capaDoJogo.jpg" alt="League of Legends">
+                </a>
+                <h2>League of Legends</h2>
+            </div>
+            <div class="game-card">
+                <a href="">
+                    <img src="src/img/fifa/capaDoJogo.jpg" alt="FIFA">
+                </a>
+                <h2>FIFA</h2>
+            </div>
+        </div>
+
+        <!-- Opções de Atacante e Defensor -->
+        <div id="rainbow-options" class="hidden">
+            <h2>Escolha o tipo de operador (ou quase):</h2>
+            <span><strong>OBS:</strong> Pode haver sorteio de operadores com ações que você deverá fazer durante o ROUND.</span>
+            <div class="options">
+                <button id="atacante">Atacante</button>
+                <button id="defensor">Defensor</button>
+            </div>
+        </div>
+
+        <!-- Resultado do Sorteio -->
+        <div id="resultado" class="hidden">
+            <h2>Operador Sorteado:</h2>
+            <p id="operador"></p>
+            <p id="arma"></p>
+            <p id="mira"></p>
+            <p id="cano"></p>
+            <p id="cabo"></p>
+            <p id="acao"></p>
+            <p id="caso-nao-consiga"></p>
+        </div>
+    </div>
+</body>
+
+</html>

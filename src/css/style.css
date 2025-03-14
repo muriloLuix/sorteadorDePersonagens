@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables */
+:root {
+    --roxo-escuro: #1e152a;
+    --roxo-claro: #3d2c50;
+    --branco-escuro: #f2f2f2;
+    --dourado: #c9a227;
+    --montserrat: "Montserrat", sans-serif;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, var(--roxo-escuro), var(--roxo-claro));
+    font-family: var(--montserrat);
+    color: var(--branco-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--dourado);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.jogos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 200px;
+    margin: 10px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-card img {
+    width: 100%;
+    height: 81%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.game-card h2 {
+    font-size: 1.2rem;
+    color: var(--dourado);
+}
+
+/* R6 */
+
+.hidden {
+    display: none;
+}
+
+#rainbow-options {
+    margin-top: 20px;
+}
+
+#rainbow-options span{
+    color: rgb(196, 4, 4);
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.options button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: var(--branco-escuro);
+    background-color: var(--roxo-claro);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: var(--montserrat);
+
+}
+
+.options button:hover {
+    background-color: var(--dourado);
+}
+
+#atacante:hover {
+    background-color: #0216ca;
+}
+
+#defensor:hover {
+    background-color: #ff4500;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+#resultado p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* R6 */

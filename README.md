@@ -24,27 +24,16 @@ Bem-vindo ao **Sorteador de Personagens**! Este projeto foi criado para ajudar j
    ```sh
    cd sorteador-personagens
    ```
-3. Instale as dependências:
-   ```sh
-   npm install  # ou yarn install
-   ```
-4. Inicie o projeto:
-   ```sh
-   npm start  # ou yarn start
-   ```
-5. Acesse no navegador:
-   ```
-   http://localhost:3000
-   ```
+3. Abra o arquivo `index.html` no navegador para utilizar o sorteador.
 
 ---
 
 ## 🖥️ Tecnologias Utilizadas
 
-- [React](https://reactjs.org/) ⚛️
-- [Node.js](https://nodejs.org/) 🟢
-- [Express](https://expressjs.com/) 🚀
-- [MongoDB](https://www.mongodb.com/) 🍃
+- **HTML** 🖼️
+- **CSS** 🎨
+- **JavaScript** 📝
+- **PHP** 🐘
 
 ---
 
